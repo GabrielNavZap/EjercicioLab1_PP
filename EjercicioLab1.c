@@ -26,14 +26,16 @@ int menu ()
 {
 	int opc;
 	
-	
+	do
+	{
 	printf("1. Divisi%cn por Restas Sucesivas.\n", 162);
 	printf("2. Multiplicaci%on por Sumas Sucesivas.", 162);
 	printf("3. Factorial de un n%cmero.\n", 163);
-	printf("4. Salir.\n")
+	printf("4. Salir.\n");
 	
 	scanf("%d", &opc);
-	
+	}
+	while(opc=!4);
 	
 	
 }
